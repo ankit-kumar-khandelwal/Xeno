@@ -1,4 +1,3 @@
-import React from 'react';
 import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -38,7 +37,7 @@ export function Orders() {
           <Input id="order-amount" placeholder="Enter order amount" type="number" />
         </div>
       </CardContent>
-      <CardFooter className="flex justify-end gap-2">
+      <CardFooter className="flex justify-center gap-2">
         <Button variant="outline">Cancel</Button>
         <Button>Save</Button>
       </CardFooter>
