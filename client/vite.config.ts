@@ -6,11 +6,13 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
+    rollupOptions: {
+      input: 'index.html',
+    },
   },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-  root: '.', // Add this line to set the root directory
 });
