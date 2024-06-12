@@ -5,7 +5,7 @@ import { Orders } from './components/component/orders';
 import { Button } from "@/components/ui/button";
 
 function App() {
-  const [showCustomer, setShowCustomer] = useState(false);
+  const [showCustomer, setShowCustomer] = useState(true);
   const [showOrders, setShowOrders] = useState(false);
 
   const handleShowCustomer = () => {
